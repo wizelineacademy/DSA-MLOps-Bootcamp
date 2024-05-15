@@ -1,0 +1,46 @@
+digraph {
+	rankdir=LR
+	Persona [label=Persona shape=ellipse]
+	"Historia 1" [label="Opción 1 de Historia" shape=box]
+	Persona -> "Historia 1"
+	"Novela 1-1" [label="Opción 1 de Novela" shape=box]
+	"Historia 1" -> "Novela 1-1"
+	"Ciencia 1-1-1" [label="Opción 1 de Ciencia" shape=box]
+	"Novela 1-1" -> "Ciencia 1-1-1"
+	"Ciencia 1-1-2" [label="Opción 2 de Ciencia" shape=box]
+	"Novela 1-1" -> "Ciencia 1-1-2"
+	"Novela 1-2" [label="Opción 2 de Novela" shape=box]
+	"Historia 1" -> "Novela 1-2"
+	"Ciencia 1-2-1" [label="Opción 1 de Ciencia" shape=box]
+	"Novela 1-2" -> "Ciencia 1-2-1"
+	"Ciencia 1-2-2" [label="Opción 2 de Ciencia" shape=box]
+	"Novela 1-2" -> "Ciencia 1-2-2"
+	"Historia 2" [label="Opción 2 de Historia" shape=box]
+	Persona -> "Historia 2"
+	"Novela 2-1" [label="Opción 1 de Novela" shape=box]
+	"Historia 2" -> "Novela 2-1"
+	"Ciencia 2-1-1" [label="Opción 1 de Ciencia" shape=box]
+	"Novela 2-1" -> "Ciencia 2-1-1"
+	"Ciencia 2-1-2" [label="Opción 2 de Ciencia" shape=box]
+	"Novela 2-1" -> "Ciencia 2-1-2"
+	"Novela 2-2" [label="Opción 2 de Novela" shape=box]
+	"Historia 2" -> "Novela 2-2"
+	"Ciencia 2-2-1" [label="Opción 1 de Ciencia" shape=box]
+	"Novela 2-2" -> "Ciencia 2-2-1"
+	"Ciencia 2-2-2" [label="Opción 2 de Ciencia" shape=box]
+	"Novela 2-2" -> "Ciencia 2-2-2"
+	"Historia 3" [label="Opción 3 de Historia" shape=box]
+	Persona -> "Historia 3"
+	"Novela 3-1" [label="Opción 1 de Novela" shape=box]
+	"Historia 3" -> "Novela 3-1"
+	"Ciencia 3-1-1" [label="Opción 1 de Ciencia" shape=box]
+	"Novela 3-1" -> "Ciencia 3-1-1"
+	"Ciencia 3-1-2" [label="Opción 2 de Ciencia" shape=box]
+	"Novela 3-1" -> "Ciencia 3-1-2"
+	"Novela 3-2" [label="Opción 2 de Novela" shape=box]
+	"Historia 3" -> "Novela 3-2"
+	"Ciencia 3-2-1" [label="Opción 1 de Ciencia" shape=box]
+	"Novela 3-2" -> "Ciencia 3-2-1"
+	"Ciencia 3-2-2" [label="Opción 2 de Ciencia" shape=box]
+	"Novela 3-2" -> "Ciencia 3-2-2"
+}

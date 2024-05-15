@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "discrete-mathematics"
+version = "0.1.0"
+description = "This env contains all needed dependencies for discrete mathematics notebook."
+authors = ["Camilo Martinez <camilo.martinez@wizeline.com>"]
+license = "MLOps Bootcamp 2024"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.0"
+ipykernel = "^6.29.0"
+pyarrow = "^15.0.0"
+matplotlib = "^3.8.2"
+graphviz = "^0.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
