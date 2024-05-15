@@ -1,0 +1,25 @@
+graph G {
+	rankdir=LR
+	A
+	B
+	C
+	D
+	E
+	F
+	G
+	H
+	I
+	J
+	A -- B
+	A -- C
+	A -- D
+	B -- E
+	B -- F
+	C -- G
+	C -- H
+	D -- I
+	D -- J
+	E -- H
+	F -- I
+	G -- J
+}
