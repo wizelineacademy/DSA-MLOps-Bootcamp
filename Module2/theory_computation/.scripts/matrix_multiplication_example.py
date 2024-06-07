@@ -1,6 +1,6 @@
 def matrix_multiplication(A, B): # Temporal O(n^3), Espacial O(n^2), con n := dimensión de A y B
     n = len(A)
-    C = [[0 for _ in range(n)] for _ in range(n)] # Nuevo arreglo creado en memoria Espacial de dimensión n^2
+    C = [[0 for _ in range(n)] for _ in range(n)] # Nuevo arreglo creado en memoria de dimensión n^2
     for i in range(n): # n iteraciones
         for j in range(n): # n * n = n^2 iteraciones
             for k in range(n): # n * n * n = n^3 iteraciones
